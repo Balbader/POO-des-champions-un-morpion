@@ -12,19 +12,19 @@ Feel free to fork it, star it, break it, clone it... We hope you have fun doing 
 
 1. Clone this repo by running the command: <br> 
 
-```$ git clone git@github.com/Balbader/POO-des-champions-un-morpion``` <br>
+```$ git clone git@github.com/Balbader/POO-des-champions-un-morpion```<br>
 
-2. cd into the repo by running the command: <br>
+2. cd into the repo by running the command:<br>
 
-```$ cd POO-des-champions-un-morpion``` <br>
+```$ cd POO-des-champions-un-morpion```<br>
 
-3. Install dependencies with the command: <br>
+3. Install dependencies with the command:<br>
 
-```$ bundle install``` <br>
+```$ bundle install```<br>
 
-4. Launch the app with the command: <br> 
+4. Launch the app with the command:<br> 
 
-```$ruby app.rb``` <br>
+```$ruby app.rb```<br>
 
 5. Have fun :)<br>
 
