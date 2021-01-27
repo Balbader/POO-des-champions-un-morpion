@@ -1,7 +1,6 @@
 # POO-des-champions-un-morpion
-Tu vas utiliser tes compétences de POO pour faire un programme en POO : un morpion. Ça fait envoyer du paté !
-
 <h3>Project realized by @Montedeveloppino, @35Draken and @Balbader</h3><br>
+Tu vas utiliser tes compétences de POO pour faire un programme en POO : un morpion. Ça fait envoyer du paté !
 
 <h2>Project Overview</h2><br>
 a
