@@ -4,11 +4,15 @@ Tu vas utiliser tes compétences de POO pour faire un programme en POO : un morp
 <h3>Project realized by @Montedeveloppino, @35Draken and @Balbader</h3><br>
 
 <h2>Project Overview</h2><br>
+a
 This tic-tac-toe game was created as part of the hacking project bootcamp due projects.<br>
 Feel free to fork it, star it, break it, clone it... We hope you have fun doing so!!<br>
 
 <h2>Getting Started</h2><br>
-1. Clone this repo by running the command: ```$ git clone git@github.com/Balbader/POO-des-champions-un-morpion``` <br>
+
+1. Clone this repo by running the command: <br> 
+
+```$ git clone git@github.com/Balbader/POO-des-champions-un-morpion``` <br>
 
 2. cd into the repo by running the command: <br>
 
