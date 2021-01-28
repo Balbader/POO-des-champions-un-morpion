@@ -57,6 +57,17 @@ class Game
         @table = Board.new
         @status = "on going"
         puts "新しいラウンドに行きましょう...あなたは明らかにこれ以上生産的なことは何もないので..."
+        sleep(0.8)
+        print "You                                 \r"
+        sleep(0.5)
+        print "You should                          \r"
+        sleep(0.5)
+        print "You should see                      \r"
+        sleep(0.5)
+        print "You should see your                 \r"
+        sleep(0.5)
+        print "You should see your face            \r"
+        sleep(0.5)
         puts "You should see your face right now.."
         puts "Just kidding... ha ha ha ... let's start a new round... YaY ^^ "
 
