@@ -1,5 +1,5 @@
 require_relative 'board_case'
-require_relative 'player'
+
 class Board
   attr_accessor :arr_boardcase
 
@@ -70,6 +70,7 @@ class Board
             game_on = false
         else
             puts "You fucked, try again !" 
+        end
       when ("C2")
         if table.arr_boardcase[7].token == "."
             table.arr_boardcase[7].token = actual_player.token
@@ -87,13 +88,11 @@ class Board
       else
       puts "WRONG SPOT" 
       end
-
     end
-    
-    
   end 
-  def victory?
-    #TO DO : une méthode qui vérifie le plateau et indique s'il y a un vainqueur ou match nul
+
+  def victory?(table)
+    # TO DO : une méthode qui vérifie le plateau et indique s'il y a un vainqueur ou match nul
     # la victoire y est quand 
     ## 1- case 1/ case 2 / case 3 similaires
     ## 2- case 4/ case 5/ case 6  similaires
@@ -143,13 +142,5 @@ class Board
     else
       puts "ÉGALITÉ"
     end
-      
-
   end
-
-
-
-
 end
-
-binding.pry 
