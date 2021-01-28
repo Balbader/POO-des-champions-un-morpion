@@ -39,5 +39,4 @@ class Player
     end
     return token
   end
-
 end
