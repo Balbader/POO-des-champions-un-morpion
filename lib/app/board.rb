@@ -69,12 +69,8 @@ class Board
             table.arr_boardcase[6].token = actual_player.token
             game_on = false
         else
-<<<<<<< HEAD
             puts "You fucked, try again !" 
         end
-=======
-            puts "You fucked, try again !"
->>>>>>> b7cd6fb7412c6cd0f1c1898926438fd4bac56e0e
       when ("C2")
         if table.arr_boardcase[7].token == "."
             table.arr_boardcase[7].token = actual_player.token
@@ -93,20 +89,11 @@ class Board
       puts "WRONG SPOT"
       end
     end
-<<<<<<< HEAD
   end 
 
-  def victory?(table)
-    # TO DO : une méthode qui vérifie le plateau et indique s'il y a un vainqueur ou match nul
-    # la victoire y est quand 
-=======
-
-
-  end
   def victory?
     #TO DO : une méthode qui vérifie le plateau et indique s'il y a un vainqueur ou match nul
     # la victoire y est quand
->>>>>>> b7cd6fb7412c6cd0f1c1898926438fd4bac56e0e
     ## 1- case 1/ case 2 / case 3 similaires
     ## 2- case 4/ case 5/ case 6  similaires
     ## 3- case 7/ case 8/ case 9  similaires
@@ -157,8 +144,3 @@ class Board
     end
   end
 end
-<<<<<<< HEAD
-=======
-
-binding.pry
->>>>>>> b7cd6fb7412c6cd0f1c1898926438fd4bac56e0e
