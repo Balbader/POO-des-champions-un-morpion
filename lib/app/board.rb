@@ -95,15 +95,55 @@ class Board
   def victory?
     #TO DO : une méthode qui vérifie le plateau et indique s'il y a un vainqueur ou match nul
     # la victoire y est quand 
-    # 1- case 1/ case 2 / case 3 similaires
-    # 2- case 4/ case 5/ case 6  similaires
-    # 3- case 7/ case 8/ case 9  similaires
-    # 4- case 1/ case 4/ case 7  similaires
-    # 5- case 2/ case 5/ case 8  similaires
-    # 6- case 3/ case 6/ case 9  similaires
-    # 7- case 1/ case 5/ case 9  similaires
-    # 8- case 3/ case 5/ case 7  similaires
+    ## 1- case 1/ case 2 / case 3 similaires
+    ## 2- case 4/ case 5/ case 6  similaires
+    ## 3- case 7/ case 8/ case 9  similaires
+    ## 4- case 1/ case 4/ case 7  similaires
+    ## 5- case 2/ case 5/ case 8  similaires
+    ## 6- case 3/ case 6/ case 9  similaires
+    ## 7- case 1/ case 5/ case 9  similaires
+    ## 8- case 3/ case 5/ case 7  similaires
+    ## 9- pas de similitudes ==> égalité
 
+    if table.arr_boardcase[0].token = x && table.arr_boardcase[1].token = x && table.arr_boardcase[2].token = x
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[0].token = x && table.arr_boardcase[3].token = x && table.arr_boardcase[6].token = x
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[0].token = x && table.arr_boardcase[4].token = x && table.arr_boardcase[8].token = x
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[3].token = x && table.arr_boardcase[4].token = x && table.arr_boardcase[5].token = x
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[6].token = x && table.arr_boardcase[7].token = x && table.arr_boardcase[8].token = x
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[1].token = x && table.arr_boardcase[4].token = x && table.arr_boardcase[7].token = x
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[2].token = x && table.arr_boardcase[5].token = x && table.arr_boardcase[8].token = x
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[2].token = x && table.arr_boardcase[4].token = x && table.arr_boardcase[6].token = x
+      puts "Tu as gagné"
+
+    #------------------- CAS DE VICTOIRE TOKEN "O"---------------------------------------------------------------
+
+    elsif table.arr_boardcase[0].token = o && table.arr_boardcase[1].token = o && table.arr_boardcase[2].token = o
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[0].token = o && table.arr_boardcase[3].token = o && table.arr_boardcase[6].token = o
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[0].token = o && table.arr_boardcase[4].token = o && table.arr_boardcase[8].token = o
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[3].token = o && table.arr_boardcase[4].token = o && table.arr_boardcase[5].token = o
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[6].token = o && table.arr_boardcase[7].token = o && table.arr_boardcase[8].token = o
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[1].token = o && table.arr_boardcase[4].token = o && table.arr_boardcase[7].token = o
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[2].token = o && table.arr_boardcase[5].token = o && table.arr_boardcase[8].token = o
+      puts "Tu as gagné"
+    elsif table.arr_boardcase[2].token = o && table.arr_boardcase[4].token = o && table.arr_boardcase[6].token = o
+      puts "Tu as gagné"
+    else
+      puts "ÉGALITÉ"
+    end
+      
 
   end
 
